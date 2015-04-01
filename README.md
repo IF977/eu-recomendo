@@ -1,9 +1,6 @@
 
-
-
-
-                                          EU RECOMENDO
-                                          PROJECT CHARTER
+# EU RECOMENDO
+PROJECT CHARTER
 
 
 
