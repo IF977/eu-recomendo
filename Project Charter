@@ -39,22 +39,22 @@ Júlia, Michelle e Wanderson	29/03/2015	Criação do Project Charter 	1.0
 
 
 Sumário
-1.	Apresentação do projeto .................................................7
-2.	Justificativa do projeto......................................................7
-2.1.	Objetivos específicos........................................................7
-3.	Descrição do projeto (Escopoo).......................................8
-4.	Designação do gerente do projeto...................................8
-5.	Prazo estimado para a conclusão do Projeto..................8
-6.	Cronograma de marcos sumarizado............................... 8
-7.	Riscos...............................................................................9
-8.	Premissas e restrições.....................................................9
-8.1.	Premissas.........................................................................9
-8.2.	Restrições.........................................................................9
-9.	Requisitos de alto nível.....................................................9
-10.	Ligações com outros projetos............................................10
-11.	Principais Intervenientes....................................................10
-12.	Forma de Acompanhamento do projeto............................10
-13.	Assinaturas........................................................................10
+1.	Apresentação do projeto .....................................7
+2.	Justificativa do projeto.....................................7
+2.1.	Objetivos específicos........................................7
+3.	Descrição do projeto (Escopoo)...............................8
+4.	Designação do gerente do projeto.............................8
+5.	Prazo estimado para a conclusão do Projeto...................8
+6.	Cronograma de marcos sumarizado............................. 8
+7.	Riscos.......................................................9
+8.	Premissas e restrições.......................................9
+8.1.	Premissas....................................................9
+8.2.	Restrições...................................................9
+9.	Requisitos de alto nível.....................................9
+10.	Ligações com outros projetos.................................10
+11.	Principais Intervenientes....................................10
+12.	Forma de Acompanhamento do projeto...........................10
+13.	Assinaturas..................................................10
 
 
 
@@ -119,12 +119,14 @@ Apresentação do Project Charter - Início da Interação 0	31/03/2015
 •	Manter a comunicação e a motivação da equipe do projeto.
 
     8.2.	Restrições
+    
 •	O projeto deverá ser concluído em 4 meses;
 •	Sistema baseado em web;
 •	Entregar os documentos no tempo proposto;
 •	Todos integrantes do grupo apresentam conhecimento básico sobre a linguagem que foi proposta;
 
 9.	Requisitos de alto nível
+
 •	Disponibilidade Online na web;
 •	Cadastro de usuários;
 •	Especificação de qual organização o usuário gostaria de deixar a sua opinião;
