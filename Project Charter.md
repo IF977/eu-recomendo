@@ -60,12 +60,6 @@ Sumário
 
 
 
-
-
-
-
-
-
 1.	Apresentação do projeto
 
           Esse documento tem como objetivo definir os principais envolvidos com suas devidas responsabilidades e atribuições a cada membro do Eu recomendo. Definir e apresentar o negócio e o que vai ser feito em alto nível para o entendimento de todos. As definições e previsões do custo e tempo para desenvolvimento e analise do que será realizado.  
