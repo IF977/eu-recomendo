@@ -1,0 +1,36 @@
+<% provide(:title, "Anuncie Aqui!") %>
+<html>
+  <head>
+    <title><%= yield(:title) %> | Eu Recomendo</title>
+  </head>
+
+<p id="notice"><%= notice %></p>
+
+<h1>Lista de Anúncios</h1>
+    <% @post.each do |post| %>
+    
+     <div class="panel panel-primary">
+      <div class="panel-heading"><%= post.titulo %></div>
+      <div class="panel-body">
+       <%= post.conteudo %>
+       </div>
+
+       <table align="center">
+         <tr>
+          <td><div><%= link_to 'Mostrar', post, class: "btn btn-primary" %></div></td>
+          <td><div><%= link_to 'Editar', edit_post_path(post), class: "btn btn-primary"%></div></td>
+          <td><div><%= link_to 'Apagar', post, method: :delete, data: { confirm: 'Você tem certeza?' }, class: "btn btn-primary"%></div></td>
+        </tr>
+       </table>
+       <br>
+      </div>
+
+       
+    <% end %>
+  
+
+
+<br>
+
+<%= link_to 'Novo Anúncio', new_post_path, class: "btn btn-primary" %>
+</html>

@@ -1,0 +1,46 @@
+<p class="notice"><%= notice %></p>
+ 
+<br />
+
+<div class="panel panel-primary">
+  <!-- Default panel contents -->
+  <div class="panel-heading"> <%= @post.titulo %></div>
+
+  <!-- List group -->
+  <ul class="list-group">
+    <li class="list-group-item">Descrição: <%= @post.conteudo %></li>
+    <li class="list-group-item">Categoria: <%= @post.categoria %></li>
+    <li class="list-group-item">Localidade: <%= @post.localidade %></li>
+    <li class="list-group-item">Tipo: <%= @post.tipo %></li>
+    <li class="list-group-item">Data: <%= @post.data %></li>
+    <li class="list-group-item">Imagem: <%= image_tag @post.imagem.url(:medium)%></li>
+  </ul>
+</div>
+
+
+
+<h2>Comentários</h2>
+<% @post.comentarios.each do |comentarios| %>
+ <div class="panel panel-primary">
+   <div class="panel-heading"><%=comentarios.autor %></div>
+  <div class="panel-footer"><%= comentarios.conteudo %></div>
+</div>
+<% end %>
+ 
+<h2>Adicione um comentário:</h2>
+<%= form_for([@post, @post.comentarios.build]) do |f| %>
+  <div class="field">
+    <%= f.label :autor %><br />
+    <%= f.text_field :autor %>
+  </div>
+  <div class="field">
+    <%= f.label :conteudo %><br />
+    <%= f.text_area :conteudo %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Postar comentário", class: "btn btn-primary" %>
+  </div>
+<% end %>
+ <br><br>
+<%= link_to 'Editar', edit_post_path(@post), class: "btn btn-primary" %> 
+<%= link_to 'Voltar', posts_path, class: "btn btn-primary" %>
