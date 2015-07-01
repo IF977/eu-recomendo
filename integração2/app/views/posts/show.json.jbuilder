@@ -1,1 +1,0 @@
-json.extract! @post, :id, :titulo, :conteudo, :categoria, :localidade, :tipo, :data, :created_at, :updated_at
