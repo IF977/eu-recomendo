@@ -1,0 +1,46 @@
+<% provide(:title, 'Inscreva-se!') %>
+<h1>Inscreva-se!</h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for (@user) do |f| %>
+      <%= f.label :nome %>
+      <%= f.text_field :nome, class: 'form-control' %>
+      
+      <%= f.label :sobrenome %>
+      <%= f.text_field :sobrenome %>
+
+      <%= f.label :email %>
+      <%= f.email_field :email, class: 'form-control' %>
+      
+      <%= f.label :nickname %>
+      <%= f.text_field :nickname %>
+      
+      <%= f.label :telefone %>
+      <%= f.text_field :telefone %>
+      
+      <%= f.label :rua %>
+      <%= f.text_field :rua %>
+      
+      <%= f.label :cep %>
+      <%= f.text_field :cep %>
+      
+      <%= f.label :numero %>
+      <%= f.text_field :numero %>
+      
+      <%= f.label :complemento %>
+      <%= f.text_field :complemento %>
+      
+      <%= f.label :tipo %>
+      <%= f.text_field :tipo %>
+      
+      <%= f.label :password %>
+      <%= f.password_field :password, class: 'form-control' %>
+
+      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.password_field :password_confirmation, class: 'form-control' %>
+
+      <%= f.submit "Criar minha conta", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
